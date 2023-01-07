@@ -4,11 +4,11 @@
 }
 
 .header{
-    width: 1600px;
+    max-width: 1600px;
     height: 809px;
     border: 1px solid red;
     background-image: url(./images/banner/banner2.png);
-    
+    background-size: cover;
 }
 .header-head{
     margin: 0%;
@@ -25,7 +25,7 @@
     font-size: 16px;
 }
 .head-contact-btn{
-    margin-left: 1240px;
+    margin-left: 990px;
     height: 64px;
     width: 160px;
     border-radius: 10px;
@@ -134,4 +134,20 @@ footer{
     flex-basis: 45%;
     padding-left: 5%;
     margin-top: 8%;
+}
+.about{
+    display: flex;
+    max-width: 1600px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F15B22;
+    padding-bottom: 20px;
+}
+.about-me{
+   max-width: 1600px;
+  background-color: #F15B22;
+}
+.about-head{
+    margin-left: 550px;
+    font-size: 35px;
 }
